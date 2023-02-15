@@ -37,3 +37,36 @@
     left: 49.25%;
     opacity: 0.8; 
 }
+
+.number {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(27, 172, 99);
+    z-index: 4;
+  }
+  
+  .three {
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+  }
+  
+  .six {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+  
+  .nine {
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+  }
+  
+  .twelve {
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
