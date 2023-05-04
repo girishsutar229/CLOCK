@@ -6,13 +6,13 @@
     width: 25vw; 
     background: url(clock.png) no-repeat;
     background-size: 100%;
-    background-color: rgba(20, 14, 14, 0.827);
+    /* background-color: rgba(20, 14, 14, 0.827);
     border-radius: 50%;
-    max-width: 90vh;
-}
+    max-width: 90vh; */
+} 
 #hour, #minute, #second{
     position: absolute;
-    background: rgb(251, 251, 251);
+    background: rgb(0, 0, 0);
     border-radius: 10px; 
     transform-origin: bottom;
 }
@@ -38,7 +38,8 @@
     opacity: 0.8; 
 }
 
-.number {
+/* 
+/* .number {
     position: absolute;
     font-size: 16px;
     font-weight: bold;
@@ -69,4 +70,4 @@
     left: 50%;
     transform: translate(-50%, 0%);
   }
-  
+} */
